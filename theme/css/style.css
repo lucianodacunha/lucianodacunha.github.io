@@ -2,6 +2,33 @@
  *
  */
 
+div.copyleft {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: .8rem;
+}
+
+div.copyleft p {
+    margin-bottom: 0px;
+}
+
+.copyleft-mirror {
+    display: inline-block;
+    text-align: right;
+    margin: 0px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: “FlipH”;
+}
+
+.fa-heart {
+    color: #6C0300;
+    font-size: .7rem;
+}
+
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
