@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>lucianodacunha - python</title><link>/</link><description></description><lastBuildDate>Thu, 31 May 2018 00:00:00 -0300</lastBuildDate><item><title>Iniciando em Python - Preparando o ambiente</title><link>/iniciando-em-python-i.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python is an easy to learn, powerful programming language.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.python.org/3/tutorial/#the-python-tutorial"&gt;The Python Tutorial&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Inicio aqui uma série de postagens que reunirão minhas notas de estudos em Python.&lt;/p&gt;
+&lt;p&gt;Utilizarei o livro &lt;a href="https://nostarch.com/pythoncrashcourse"&gt;Python Crash Course&lt;/a&gt; 
+como base e inicialmente, passarei por todos os capítulos da parte I. &lt;/p&gt;
+&lt;p&gt;Pretendo abordar todos os tópicos de forma bem sucinta, registrando somente 
+minhas notas rápidas e o …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Luciano</dc:creator><pubDate>Thu, 31 May 2018 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:None,2018-05-31:/iniciando-em-python-i.html</guid><category>python</category><category>books</category></item></channel></rss>

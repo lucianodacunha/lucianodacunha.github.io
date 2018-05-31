@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lucianodacunha</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-05-31T00:00:00-03:00</updated><entry><title>Iniciando em Python - Preparando o ambiente</title><link href="/iniciando-em-python-i.html" rel="alternate"></link><published>2018-05-31T00:00:00-03:00</published><updated>2018-05-31T00:00:00-03:00</updated><author><name>Luciano</name></author><id>tag:None,2018-05-31:/iniciando-em-python-i.html</id><summary type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lucianodacunha - python</title><link href="/" rel="alternate"></link><link href="/feeds/python.atom.xml" rel="self"></link><id>/</id><updated>2018-05-31T00:00:00-03:00</updated><entry><title>Iniciando em Python - Preparando o ambiente</title><link href="/iniciando-em-python-i.html" rel="alternate"></link><published>2018-05-31T00:00:00-03:00</published><updated>2018-05-31T00:00:00-03:00</updated><author><name>Luciano</name></author><id>tag:None,2018-05-31:/iniciando-em-python-i.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;Python is an easy to learn, powerful programming language.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.python.org/3/tutorial/#the-python-tutorial"&gt;The Python Tutorial&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -159,72 +159,4 @@ global do pyenv e muito menos a versão original do sistema.&lt;/p&gt;
 
 &lt;h3&gt;E agora?&lt;/h3&gt;
 &lt;p&gt;Agora é só definir um diretório, criar um ambiente virtual, ativá-lo e codar.&lt;/p&gt;
-&lt;p&gt;Abraço.&lt;/p&gt;</content><category term="python"></category><category term="books"></category></entry><entry><title>Aprender a Programar</title><link href="/aprender-a-programar.html" rel="alternate"></link><published>2018-05-26T00:00:00-03:00</published><updated>2018-05-26T00:00:00-03:00</updated><author><name>Luciano</name></author><id>tag:None,2018-05-26:/aprender-a-programar.html</id><summary type="html">&lt;p&gt;&lt;em&gt;"Todas as pessoas deveriam aprender a programar um computador, porque ensina
-você a pensar"&lt;/em&gt; - Steve Jobs&lt;/p&gt;
-&lt;p&gt;Concordo plenamente com essa afirmação. Quando queremos ensinar a alguém uma
-determinada tarefa, uma forma didática é utilizar o passo a passo.&lt;/p&gt;
-&lt;p&gt;Programar é isso, realizar tarefas executando passo a passo. Nesse método,
-somos forçados a pensar na estrutura que compõe a tarefa, dividí-la …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;"Todas as pessoas deveriam aprender a programar um computador, porque ensina
-você a pensar"&lt;/em&gt; - Steve Jobs&lt;/p&gt;
-&lt;p&gt;Concordo plenamente com essa afirmação. Quando queremos ensinar a alguém uma
-determinada tarefa, uma forma didática é utilizar o passo a passo.&lt;/p&gt;
-&lt;p&gt;Programar é isso, realizar tarefas executando passo a passo. Nesse método,
-somos forçados a pensar na estrutura que compõe a tarefa, dividí-la em partes
-e executar cada parte separadamente.&lt;/p&gt;
-&lt;p&gt;Para mim, isso tem um nome: &lt;em&gt;Lógica!&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;Mas quem pode aprender a programar?&lt;/h2&gt;
-&lt;p&gt;Acredito que a maioria (sendo um pouco conservador) da população tem aptidão 
-para programar. É claro, que como todas as atividades, alguns terão mais 
-habilidade em um certo momento, mas na minha opinião, a prática vai ajudar a 
-melhorar gradualmente.&lt;/p&gt;
-&lt;h2&gt;Mas por que eu deveria aprender a programar?&lt;/h2&gt;
-&lt;p&gt;Acredito que o cérebro é como um músculo e assim deveria ser exercitado para não
-atrofiar. Programar é uma ótima forma de exercício para o cérebro.&lt;/p&gt;
-&lt;p&gt;Independente de sua profissão, praticar o raciocínio é muito bom para sua saúde 
-mental.&lt;/p&gt;
-&lt;p&gt;Agora se você trabalha com computador, existe uma infinidade de tarefas 
-repetitivas que poderia evitar com a programação. Experimente. &lt;/p&gt;
-&lt;h2&gt;O que preciso para começar a aprender?&lt;/h2&gt;
-&lt;p&gt;Começar! Há muito tempo, quando ainda não existia a internet, autodidatas da 
-programação tinham um pouco mais de dificuldade, tendo que recorrer a manuais 
-com linguagem complexa e muitas vezes com poucas opções de tecnologia.&lt;/p&gt;
-&lt;p&gt;Já faz um tempo que fontes de pesquisa já não são mais problema. &lt;/p&gt;
-&lt;p&gt;Cursos gratuitos, grupos de discussão, sites de documentação; ou seja, são 
-inúmeras as opções para quem realmente quer aprender a programar&lt;/p&gt;
-&lt;h2&gt;Já tentei e não consigo entender ...&lt;/h2&gt;
-&lt;p&gt;Duas cabeças geralmente pensam melhor que uma. &lt;/p&gt;
-&lt;p&gt;Procure alguém com a mesma motivação e chame para estudar juntos. Geralmente 
-grupos de estudos são fáceis de encontrar pela internet.&lt;/p&gt;
-&lt;p&gt;A internet também facilita os encontros. Videoconferências são ótimos recursos
-para bater um papo sobre programação... e até jogar conversa fora.&lt;/p&gt;
-&lt;h2&gt;E qual linguagem escolher como início?&lt;/h2&gt;
-&lt;p&gt;Talvez ... Nenhuma!&lt;/p&gt;
-&lt;p&gt;Brincadeira, talvez o primeiro passo deve ser com a lógica de programação. E 
-para aprender lógica de programação não é necessário escolher uma linguagem 
-específica. &lt;/p&gt;
-&lt;p&gt;Se essa for a opção, um bom lugar para começar do nível extremamente básico é o
-&lt;a href="https://code.org/"&gt;Code.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Mas, se quiser começar com alguma linguagem também é possível. As opções são
-inúmeras e sou suspeito a falar, mas meu palpite seria...Python.&lt;/p&gt;
-&lt;p&gt;E se essa for a opção, um bom lugar para começar é o &lt;a href="https://www.python.org/"&gt;Python.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Por que Python?&lt;/h2&gt;
-&lt;p&gt;Poderia indicar diversos artigos de autores renomados justificando os porquês, 
-mas vou citar somente três motivos pelos quais acho interessante começar com 
-Python:&lt;/p&gt;
-&lt;p&gt;1 - É livre: Compatível com a GPL, &lt;a href="https://docs.python.org/3/license.html"&gt;compatível!&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2 - É simples: &lt;code&gt;print('Hello World!')&lt;/code&gt;. Esse é seu primeiro programa. &lt;/p&gt;
-&lt;p&gt;3 - É acessível: &lt;a href="https://wiki.python.org.br/PerguntasFrequentes/SobrePython#Onde_posso_tirar_minhas_d.2BAPo-vidas.3F"&gt;Experimente a comunidade&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;E agora...&lt;/h2&gt;
-&lt;p&gt;Agora é mão na massa. Escolha por onde começar e inicie do básico, avançando 
-passo a passo. &lt;/p&gt;
-&lt;p&gt;Não queime etapas e caso sinta alguma dificuldade, peça ajuda.&lt;/p&gt;
-&lt;p&gt;Abaixo, um vídeo demonstrando que até grandes nomes da programação começaram com
-um simples &lt;code&gt;Hello World&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://youtu.be/nKIu9yen5nc" title="Why programming is important"&gt;&lt;img alt="Why programming is important" src="https://i.ytimg.com/vi/dU1xS07N-FA/hqdefault.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abraço ;)&lt;/p&gt;</content><category term="programar"></category><category term="python"></category></entry><entry><title>Piloto</title><link href="/piloto.html" rel="alternate"></link><published>2018-05-25T20:00:00-03:00</published><updated>2018-05-25T20:00:00-03:00</updated><author><name>Luciano</name></author><id>tag:None,2018-05-25:/piloto.html</id><summary type="html">&lt;p&gt;Inauguro com esse post, um espaço que será utilizado para guardar minhas notas de estudos em assuntos relacionados com tecnologia, desenvolvimento, universo e tudo mais.&lt;/p&gt;
-&lt;p&gt;Espero aparecer por aqui com frequência e que o conteúdo disponibilizado seja útil para outras pessoas com interesses em comum.&lt;/p&gt;
-&lt;p&gt;Para facilitar tudo, fiz um blog utilizando Pelican e até o momento tudo parece estar …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Inauguro com esse post, um espaço que será utilizado para guardar minhas notas de estudos em assuntos relacionados com tecnologia, desenvolvimento, universo e tudo mais.&lt;/p&gt;
-&lt;p&gt;Espero aparecer por aqui com frequência e que o conteúdo disponibilizado seja útil para outras pessoas com interesses em comum.&lt;/p&gt;
-&lt;p&gt;Para facilitar tudo, fiz um blog utilizando Pelican e até o momento tudo parece estar dando certo. Já tenho um mini blog, em pleno vôo. ;)&lt;/p&gt;
-&lt;p&gt;Agora, de acordo com meu tempo disponível para aprender mais sobre como o Pelican funciona, irei customizando...&lt;/p&gt;
-&lt;p&gt;Abraço.&lt;/p&gt;</content><category term="blog"></category><category term="pelican"></category></entry></feed>
+&lt;p&gt;Abraço.&lt;/p&gt;</content><category term="python"></category><category term="books"></category></entry></feed>

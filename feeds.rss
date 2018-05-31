@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>lucianodacunha</title><link>/</link><description></description><lastBuildDate>Sat, 26 May 2018 00:00:00 -0300</lastBuildDate><item><title>Aprender a Programar</title><link>/aprender-a-programar.html</link><description>&lt;p&gt;&lt;em&gt;"Todas as pessoas deveriam aprender a programar um computador, porque ensina
+<rss version="2.0"><channel><title>lucianodacunha</title><link>/</link><description></description><lastBuildDate>Thu, 31 May 2018 00:00:00 -0300</lastBuildDate><item><title>Iniciando em Python - Preparando o ambiente</title><link>/iniciando-em-python-i.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python is an easy to learn, powerful programming language.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.python.org/3/tutorial/#the-python-tutorial"&gt;The Python Tutorial&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Inicio aqui uma série de postagens que reunirão minhas notas de estudos em Python.&lt;/p&gt;
+&lt;p&gt;Utilizarei o livro &lt;a href="https://nostarch.com/pythoncrashcourse"&gt;Python Crash Course&lt;/a&gt; 
+como base e inicialmente, passarei por todos os capítulos da parte I. &lt;/p&gt;
+&lt;p&gt;Pretendo abordar todos os tópicos de forma bem sucinta, registrando somente 
+minhas notas rápidas e o …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Luciano</dc:creator><pubDate>Thu, 31 May 2018 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:None,2018-05-31:/iniciando-em-python-i.html</guid><category>python</category><category>books</category></item><item><title>Aprender a Programar</title><link>/aprender-a-programar.html</link><description>&lt;p&gt;&lt;em&gt;"Todas as pessoas deveriam aprender a programar um computador, porque ensina
 você a pensar"&lt;/em&gt; - Steve Jobs&lt;/p&gt;
 &lt;p&gt;Concordo plenamente com essa afirmação. Quando queremos ensinar a alguém uma
 determinada tarefa, uma forma didática é utilizar o passo a passo.&lt;/p&gt;
 &lt;p&gt;Programar é isso, realizar tarefas executando passo a passo. Nesse método,
-somos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Luciano</dc:creator><pubDate>Sat, 26 May 2018 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:None,2018-05-26:/aprender-a-programar.html</guid><category>programar</category><category>python</category></item><item><title>Piloto</title><link>/piloto.html</link><description>&lt;p&gt;Inauguro com esse post, um espaço que será utilizado para guardar minhas notas de estudos em assuntos relacionados com tecnologia, desenvolvimento, universo e tudo mais.&lt;/p&gt;
+somos forçados a pensar na estrutura que compõe a tarefa, dividí-la …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Luciano</dc:creator><pubDate>Sat, 26 May 2018 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:None,2018-05-26:/aprender-a-programar.html</guid><category>programar</category><category>python</category></item><item><title>Piloto</title><link>/piloto.html</link><description>&lt;p&gt;Inauguro com esse post, um espaço que será utilizado para guardar minhas notas de estudos em assuntos relacionados com tecnologia, desenvolvimento, universo e tudo mais.&lt;/p&gt;
 &lt;p&gt;Espero aparecer por aqui com frequência e que o conteúdo disponibilizado seja útil para outras pessoas com interesses em comum.&lt;/p&gt;
-&lt;p&gt;Para facilitar tudo, fiz um …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Luciano</dc:creator><pubDate>Fri, 25 May 2018 20:00:00 -0300</pubDate><guid isPermaLink="false">tag:None,2018-05-25:/piloto.html</guid><category>blog</category><category>pelican</category></item></channel></rss>
+&lt;p&gt;Para facilitar tudo, fiz um blog utilizando Pelican e até o momento tudo parece estar …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Luciano</dc:creator><pubDate>Fri, 25 May 2018 20:00:00 -0300</pubDate><guid isPermaLink="false">tag:None,2018-05-25:/piloto.html</guid><category>blog</category><category>pelican</category></item></channel></rss>

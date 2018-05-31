@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+	<meta name="description" content="just a young grasshopper">
+	<meta property="og:description" content="just a young grasshopper">
+	<meta property="og:title" content="Iniciando em Python - Preparando o ambiente" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="/iniciando-em-python-i.html" />
+		<meta property="og:image" content="/images/" />
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>lucianodacunha</title>
+
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+		<link rel="stylesheet" href="/theme/css/poole.css" />
+		<link rel="stylesheet" href="/theme/css/hyde.css" />
+		<link rel="stylesheet" href="/theme/css/syntax.css" />
+		<link rel="stylesheet" href="/theme/css/style.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<!-- RSS -->
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+	</head>
+
+	<body class="theme-base-0d">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="/">
+					lucianodacunha
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">just a young grasshopper </p>
+			<p></p>
+		</div>
+        <div class="navbar">
+            <nav class="sidebar-nav">
+                        <a class="sidebar-nav-item" href="mailto:lucianodacunha.net_at_gmail.com">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a class="sidebar-nav-item" href="https://twitter.com/lucianodacunha">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="sidebar-nav-item" href="https://github.com/lucianodacunha">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <a class="sidebar-nav-item" href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                <a class="sidebar-nav-item" href="feeds.rss">
+                    <i class="fa fa-feed"></i>
+                </a>
+            </nav>
+        </div>
+        <br />
+		<div class="copyleft">
+			<p>Feito com <i class="fa fa-heart" aria-hidden="true"></i> e
+			    <a href="https://blog.getpelican.com/">Pelican</a>
+            </p>
+            <p>
+			    <span class="copyleft-mirror">©</span> 2018.
+            </p>
+		</div>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">Iniciando em Python - Preparando o ambiente</h1>
+	<span class="post-date">Qui 31 maio 2018</span>
+	<blockquote>
+<p>Python is an easy to learn, powerful programming language.</p>
+</blockquote>
+<p><strong><a href="https://docs.python.org/3/tutorial/#the-python-tutorial">The Python Tutorial</a></strong></p>
+<p>Inicio aqui uma série de postagens que reunirão minhas notas de estudos em Python.</p>
+<p>Utilizarei o livro <a href="https://nostarch.com/pythoncrashcourse">Python Crash Course</a> 
+como base e inicialmente, passarei por todos os capítulos da parte I. </p>
+<p>Pretendo abordar todos os tópicos de forma bem sucinta, registrando somente 
+minhas notas rápidas e o desenvolvimento de alguns exercícios.</p>
+<p>Para este post em específico, separei alguns passos necessários para a 
+preparação de um ambiente de desenvolvimento Python, de forma que fique isolado 
+do Python do sistema, além de oferecer a possibilidade de ter uma versão 
+diferente para cada projeto distinto.  </p>
+<h2>Ferramentas necessárias</h2>
+<ul>
+<li>Linux, nesse caso Ubuntu 16.04</li>
+</ul>
+<p>Verificando a versão do Ubuntu/Linux:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> cat /etc/lsb-release 
+<span class="go">DISTRIB_ID=Ubuntu</span>
+<span class="go">DISTRIB_RELEASE=16.04</span>
+<span class="go">DISTRIB_CODENAME=xenial</span>
+<span class="go">DISTRIB_DESCRIPTION=&quot;Ubuntu 16.04.3 LTS&quot;</span>
+</pre></div>
+
+
+<ul>
+<li>Python 3.6</li>
+</ul>
+<p>Verificando a versão padrão do Python</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> python -V 
+<span class="go">Python 2.7.12</span>
+<span class="gp">$</span> python3 -V
+<span class="go">Python 3.5.2</span>
+<span class="gp">$</span>
+</pre></div>
+
+
+<h2>Antes de tudo, preparar o ambiente</h2>
+<p>O Ubuntu já vem com as versões 2 e 3 do Python. Mas um requisito importante 
+antes de começar a instalar coisas no seu Python é criar um ambiente virtual.</p>
+<p>Esse procedimento irá isolar sua versão do Python, sendo possível criar um 
+ambiente para cada projeto e além disso, preservar a versão original do sistema.</p>
+<h3>Instalando o Pyenv</h3>
+<p>No terminal execute os seguintes comandos:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> sudo apt-get update
+<span class="gp">$</span> sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev git
+<span class="gp">$</span> curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer <span class="p">|</span> bash
+<span class="gp">$</span> pyenv update
+</pre></div>
+
+
+<p>Ao final da instalação, adicionar as seguintes linhas em seu arquivo <code>~/.bashrc</code>.</p>
+<div class="highlight"><pre><span></span><span class="go">export PATH=&quot;$HOME/.pyenv/bin:$PATH&quot;</span>
+<span class="go">eval &quot;$(pyenv init -)&quot;</span>
+<span class="go">eval &quot;$(pyenv virtualenv-init -)&quot;</span>
+</pre></div>
+
+
+<p>Executando o comand pyenv será possível ver os comando disponíveis. Alguns deles
+serão utilizados com mais frequência:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> pyenv
+<span class="go">pyenv 1.1.5</span>
+<span class="go">Usage: pyenv &lt;command&gt; [&lt;args&gt;]</span>
+
+<span class="go">Some useful pyenv commands are:</span>
+<span class="go">   commands    List all available pyenv commands</span>
+<span class="go">   local       Set or show the local application-specific Python version</span>
+<span class="go">   global      Set or show the global Python version</span>
+<span class="go">   shell       Set or show the shell-specific Python version</span>
+<span class="go">   install     Install a Python version using python-build</span>
+<span class="go">   uninstall   Uninstall a specific Python version</span>
+<span class="go">   rehash      Rehash pyenv shims (run this after installing executables)</span>
+<span class="go">   version     Show the current Python version and its origin</span>
+<span class="go">   versions    List all Python versions available to pyenv</span>
+<span class="go">   which       Display the full path to an executable</span>
+<span class="go">   whence      List all Python versions that contain the given executable</span>
+
+<span class="go">See `pyenv help &lt;command&gt;&#39; for information on a specific command.</span>
+<span class="go">For full documentation, see: https://github.com/pyenv/pyenv#readme</span>
+</pre></div>
+
+
+<h3>Instalando o Python no Pyenv</h3>
+<p>Verifique as versões do Python instaladas no Pyenv:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> pyenv versions
+<span class="go">  system</span>
+</pre></div>
+
+
+<p>Somente a versão system será exibida, indicando que somente a versão do sistema
+está instalada.</p>
+<p>Para instalar novas versões digite:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> python install <span class="m">3</span>.6
+</pre></div>
+
+
+<p>Onde 3.6 é a versão desejada. Para ver todas as versões disponíveis digite:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> python install -l
+</pre></div>
+
+
+<h3>Ativando a versão do Python instalada</h3>
+<p>E para ativar a versão desejada, digite:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> pyenv global <span class="m">3</span>.6.0
+</pre></div>
+
+
+<p>Nesse momento a versão 3.6.0 é a padrão. Para confirmar, consulte a versão do 
+Python que está ativada:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> python -V
+<span class="go">Python 3.6.0</span>
+</pre></div>
+
+
+<h3>Criando o ambiente virtual</h3>
+<p>Agora, para isolar uma versão específica do Python, escolha um diretório onde 
+será alocado o projeto. Dentro desse local, execute os seguinte comandos:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> python -m venv .py3
+</pre></div>
+
+
+<p>O comando acima, basicamente realiza as seguinte operações:</p>
+<ul>
+<li><code>python -m</code>: sintaxe para rodar um script com Python;</li>
+<li><code>venv</code>: o nome do script do pyenv responsável por criar ambientes virtuais;</li>
+<li><code>.py3</code>: nome do meu ambiente virtual. Esse nome poderia ser outro.</li>
+</ul>
+<p>Após isso, será criado um diretório, que nesse caso é oculto, e dentro dele 
+existirá um versão do Python 3.6.0 isolada. </p>
+<p>Nesse ambiente será possível instalar novos pacotes sem prejudicar a versão 
+global do pyenv e muito menos a versão original do sistema.</p>
+<h3>Ativando o ambiente virtual</h3>
+<p>Para ativar o ambiente virtual, execute os seguintes comandos:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">source</span> .py3/bin/activate
+</pre></div>
+
+
+<p>Um prefixo aparecerá no bash, indicando que o ambiente está ativo.</p>
+<div class="highlight"><pre><span></span><span class="gp">(.py3) $</span> 
+</pre></div>
+
+
+<h3>Desativando o ambiente virtual</h3>
+<p>Para desativar o ambiente virtual, execute o seguinte comando.</p>
+<div class="highlight"><pre><span></span><span class="gp">(.py3) $</span> deactivate
+<span class="gp">$</span> 
+</pre></div>
+
+
+<h3>E agora?</h3>
+<p>Agora é só definir um diretório, criar um ambiente virtual, ativá-lo e codar.</p>
+<p>Abraço.</p>
+	<div id="disqus_thread"></div>
+		<script type="text/javascript">
+			var disqus_shortname = 'https-lucianodacunha-github-io';
+			(function() {
+	 			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	 			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	 			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	 		})();
+		</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+		</div>
+	</body>
+</html>
